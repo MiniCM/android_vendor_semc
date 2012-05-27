@@ -1,0 +1,31 @@
+#!/system/bin/busybox sh
+
+	cat /dev/input/event1 > /dev/keycheck&
+	sleep 3
+	kill -9 $!
+	if [ -s /dev/keycheck ]
+	then
+
+	# remount rootfs rw
+	mount -o remount,rw rootfs /
+
+	# Umount MTDs
+	umount -l /dev/block/mtdblock1
+	umount -l /dev/block/mtdblock2
+	umount -l /dev/block/mtdblock3
+
+	# Mount recovery partition
+	rm -r /sbin
+	rm -f etc
+	tar -xf /system/bin/xrecovery.tar
+
+	# Umount /system
+	umount -l /dev/block/mtdblock0
+
+	chroot / /init
+
+	fi
+	
+	# Continue booting
+	/system/bin/charger
+	exit
