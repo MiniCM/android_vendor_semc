@@ -52,7 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/shakira/proprietary/etc/firmware/fm_tx_init_1273.2.bts:system/etc/firmware/fm_tx_init_1273.2.bts \
     vendor/semc/shakira/proprietary/etc/firmware/fmc_init_1273.1.bts:system/etc/firmware/fmc_init_1273.1.bts \
     vendor/semc/shakira/proprietary/etc/firmware/fmc_init_1273.2.bts:system/etc/firmware/fmc_init_1273.2.bts \
-    vendor/semc/shakira/proprietary/etc/firmware/TIInit_7.2.31.bts:system/etc/firmware/TIInit_7.2.31.bts \
     vendor/semc/shakira/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/shakira/proprietary/bin/semc_chargalg:system/bin/semc_chargalg \
     vendor/semc/shakira/proprietary/bin/updatemiscta:system/bin/updatemiscta \

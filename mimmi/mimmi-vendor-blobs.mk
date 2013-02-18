@@ -52,7 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/mimmi/proprietary/etc/firmware/fm_tx_init_1273.2.bts:system/etc/firmware/fm_tx_init_1273.2.bts \
     vendor/semc/mimmi/proprietary/etc/firmware/fmc_init_1273.1.bts:system/etc/firmware/fmc_init_1273.1.bts \
     vendor/semc/mimmi/proprietary/etc/firmware/fmc_init_1273.2.bts:system/etc/firmware/fmc_init_1273.2.bts \
-    vendor/semc/mimmi/proprietary/etc/firmware/TIInit_7.2.31.bts:system/etc/firmware/TIInit_7.2.31.bts \
     vendor/semc/mimmi/proprietary/etc/firmware/cy8_truetouch_tpk.hex:system/etc/firmware/cy8_truetouch_tpk.hex \
     vendor/semc/mimmi/proprietary/etc/firmware/cy8_truetouch_jtouch.hex:system/etc/firmware/cy8_truetouch_jtouch.hex \
     vendor/semc/mimmi/proprietary/etc/ts_fw_update.sh:system/etc/ts_fw_update.sh \
